@@ -32,7 +32,7 @@ function Navbar({logindata}) {
           <NavLink className="nav-linkk" to="/">ถ่ายทอดสด</NavLink>
         </li>
         <li onClick={hideSidebar}>
-          <NavLink className="nav-linkk" to="/orderr">เลือกสินค้า</NavLink>
+          <NavLink className="nav-linkk" to="/order">เลือกสินค้า</NavLink>
         </li>
         <li onClick={hideSidebar}>
           <NavLink className="nav-linkk" to="/history">รายการที่เสร็จสิ้นแล้ว</NavLink>
@@ -69,7 +69,7 @@ function Navbar({logindata}) {
           <NavLink className="nav-linkk" to="/">ถ่ายทอดสด</NavLink>
         </li>
         <li className="hideOnMobile">
-          <NavLink className="nav-linkk" to="/orderr">เลือกสินค้า</NavLink>
+          <NavLink className="nav-linkk" to="/order">เลือกสินค้า</NavLink>
         </li>
         <li className="hideOnMobile">
           <NavLink className="nav-linkk" to="/history">รายการที่เสร็จสิ้นแล้ว</NavLink>
