@@ -1,0 +1,130 @@
+.dbkit-table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    /* ระยะห่างระหว่างแถวใน tbody */
+}
+
+.dbkit-table thead th,
+.dbkit-table tbody td {
+    padding: 20px;
+    
+    /* ระยะห่างระหว่างขอบและเนื้อหา */
+}
+
+.dbkit-table tbody tr {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    transition: all 0.3s ease;
+}
+
+.dbkit-table tbody tr:hover {
+    transform: translateY(-4px);
+    
+    box-shadow: 0 0 10px #00000033;
+}
+
+.dbkit-table tbody tr:last-child {
+    margin-bottom: 0;
+}
+
+.dbkit-table thead th {
+    background-color: #f27314;
+    
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #dee2e6;
+    
+}
+
+.dbkit-table tbody td {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #000000;
+
+}
+.badge1 {
+    width: 95px;
+
+}
+@media (max-width: 2040px) {
+    .detail-image1 {
+            width: 22px;
+            height: 22px;
+        }
+    #historybadge{
+        width: 95px;
+    }
+}
+@media (max-width: 500px) {
+    .detail-image1 {
+        width: 14px;
+        height: 14px;
+    }
+    .dbkit-table thead th,
+    .dbkit-table tbody td {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .dbkit-table tbody tr {
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    
+
+    .dbkit-table tbody tr:last-child {
+        margin-bottom: 20px;
+    }
+
+    .dbkit-table thead th {
+        font-size: 14px;
+    }
+        #historybadge {
+            width: 65px;
+        }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button,
+.pagination select {
+    background-color: #f27314;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #f5a161;
+}
+
+.pagination span {
+    background-color: #f27314;
+    /* Green */
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
