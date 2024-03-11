@@ -39,15 +39,14 @@ function Dashboard() {
       );
     
       setCompletedata(response.data);
-      console.log(response.data);
+      // console.log(response.data);
     } catch (error) {
       
     }
   };
 
-
-
   // get_complete();
+  // get_pending();
   const interval = setInterval(() => {
 
     // get_complete();
