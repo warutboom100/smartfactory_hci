@@ -34,7 +34,7 @@ nav a {
    
 }
 nav a::after {
-    content: "";
+    
     transition: all 0.2s;
     opacity: 0;
     height: 4px;
