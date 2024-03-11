@@ -27,7 +27,7 @@ function Navbar({logindata}) {
     <nav className="py-2" role="navigation">
       
       <ul className="sidebar">
-        <li onClick={hideSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li onClick={hideSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
         <li onClick={hideSidebar}>
           <NavLink className="nav-linkk" to="/">ถ่ายทอดสด</NavLink>
         </li>
@@ -111,7 +111,7 @@ function Navbar({logindata}) {
           </ul>
         </li>
         
-        <li className="menu-button" onClick={showSidebar}><a><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        <li className="menu-button" onClick={showSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
       </ul>
     </nav>
   );
