@@ -11,9 +11,9 @@ import CardStatus from "./Cardstatus";
 import performance_oee from '../../../services/calculatePerformance'
 import quality_oee from '../../../services/calculateQuality'
 
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+// import OwlCarousel from 'react-owl-carousel';
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 function OEEstat_card({orderjson}) {

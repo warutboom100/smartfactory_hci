@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -19,6 +19,7 @@
     "gsap": "^3.12.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
+    "p2p-media-loader-hlsjs": "^0.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",

@@ -68,7 +68,7 @@ function Dashboard() {
           <OrderList data ={datajson}/>
         </div>   
 
-            <div className="card my-2 h-100">
+            {/* <div className="card my-2 h-100">
               <div className="card-body" >
                 <li className="d-flex" to="/">
                   <img src={indicators} alt="" height="32px" width="32px" />
@@ -90,7 +90,7 @@ function Dashboard() {
                 <Rawstat_card datajson={datajson} orderjson={orderjson}/>
                 
               </div>
-            </div>
+            </div> */}
           
         
       </div>
